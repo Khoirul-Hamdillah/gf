@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+  <style type="text/css" media="all">
+    body{
+      background-image: url('https://w0.peakpx.com/wallpaper/93/80/HD-wallpaper-blues-aesthetic-blue-clouds-dracieln-palmtree-portrait-skies-sky.jpg');
+    }
+  </style>
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    Swal.fire({
+      title: 'Hallo ayangkuu 😍',
+      html: '<div style="text-align: center; font-size:20px;"><p>Selamat malam 👋</p><img src="https://media1.tenor.com/m/hEK9y_EFSl0AAAAC/bubu-dudu-gif.gif" alt="" style="max-width: 100%; height: auto;"></div>',
+      confirmButtonText: 'Next',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          title: '',
+          html: '<div style="text-align: center; font-size:20px;"><img src="https://media1.tenor.com/m/RN7jCU8o7eAAAAAC/laverne-and.gif" style="max-width: 100%; height: auto;"><p>Emm besok kamu masih susulan PSAS yaaa.. 😞<br>Kamu harus tetap semangatt ayy, kamu pasti bisaaa dan semoga kita semua hasilnya memuaskann ❤❤❤</p></div>',
+          confirmButtonText: 'Next',
+        }).then((result) => {
+          if (result.isConfirmed) {
+            Swal.fire({
+              title: 'Btw, ada sesuatu yang mau aku tanyain nii ayy hehe',
+              html: '<div style="text-align: center;"><img src="https://media.tenor.com/zubnVw67eQIAAAAi/tkthao219-bubududu.gif" alt="" style="max-width: 100%; height: auto;"></div>',
+              confirmButtonText: 'Next',
+            }).then((result) => {
+              if (result.isConfirmed) {
+                Swal.fire({
+                  title: 'Penasaran kann aku mau nanya apaaa...',
+                  html: '<div style="text-align: center;"><img src="https://feeldreams.github.io/weee.gif" alt="Terima Kasih" style="max-width: 100%; height: auto;"></div>',
+                  confirmButtonText: 'Next',
+                }).then((result) => {
+                if (result.isConfirmed) {
+                Swal.fire({
+                  title: 'Jadiii..',
+                  icon: 'info',
+                  confirmButtonText: 'Next',
+                }).then((result) => {
+                  if (result.isConfirmed) {
+                    Swal.fire({
+                      title: "How's your day?",
+                      icon: 'question',
+                      confirmButtonText: 'Answer',
+                      didClose: () => {
+                        window.location.href = 'https://wa.me/6285890035641';
+                      }
+                    });
+                  }
+                });
+                  }
+                });
+              }
+            });
+          }
+        });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
